@@ -1,0 +1,21 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<div class="welcome">
+	  <h1>Middleman is Watching</h1>
+	  <p class="doc">
+	    <%= link_to "Read Online Documentation", "http://middlemanapp.com/" %>
+	  </p><!-- .doc -->
+	  <ol>
+	  <% data.people.each do |f| %>
+	  <li><%= f %></li>
+	  <% end %>
+	</ol>
+	  <p>  
+	<%= lorem.paragraph %>
+	  </p>
+	</div><!-- .welcome -->
+</body>
+</html>

@@ -1,0 +1,7 @@
+site:
+    title: 'My New Test Website'
+    description: 'A website recently generated with PieCrust as a testing site.'
+    author: AMRoche
+    pretty_urls: false
+smartypants:
+    enable: true

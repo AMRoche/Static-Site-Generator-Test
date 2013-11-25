@@ -1,0 +1,8 @@
+name: "The new and improved EventHandler website!"
+description: "Made with Jekyll for your enjoyment."
+destination: "release/"
+url: "[YOUR DOMAIN]"
+paginate: 10
+markdown: rdiscount
+permalink: pretty
+pygments: true
